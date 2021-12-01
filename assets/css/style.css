@@ -917,6 +917,12 @@ section {
     align-items: center;
     justify-content: flex-end;
   }
+  .cta .cta-btn-container .services-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
 
 /*--------------------------------------------------------------
