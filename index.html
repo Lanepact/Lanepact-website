@@ -5,12 +5,10 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Lanepact | Enabling Startups and Businesses with the best Web 3.0 and blockchain development teams out of Africa</title>
-  <meta content="Blockchain, Blockchain Development, Smart Contract, Web 3.0, Blockchain in Nigeria" name="keyword">
-  <meta content="LANEPACT provides blockchain development and Web 3.0 services for Startups and Enterprises" name="description">
-  <meta content="To advance the Economy out of Africa, OneStartup at a time" name="Vision">
-  <meta content="To enable startups and enterprises around theworld create sustainble solutions with the bestTeams from Africa" name="Mission">
-  <meta content="Prototype, Product Design, Product Development, Product Management and Customer Aquasition" name="Services">
+  <title>Lanepact | Enabling Startups and Businesses with the best solutions</title>
+  <meta content="Business, Startups, Blockchain, Blockchain Development, Smart Contract, Web 3.0, Blockchain in Nigeria" name="keyword">
+  <meta content="LANEPACT enable startups and Businesses with the best solutions" name="description">
+  <meta content="Solution creation, Infrastucture support" name="Services">
   
 
   <!-- Favicons -->
@@ -70,7 +68,7 @@
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           <h1>You Think It,
             We Build It</h1>
-          <h2>We build Web, Blockchain and Mobile solutions with the best teams out of africa. Start building in a few steps.</h2>
+          <h2>We enable Startups and Businesses with the best solutions and Infrastucture</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a target="_blank" href="https://forms.gle/yFNY2Zs7Grw3TSgj6" class="btn-get-started scrollto">Start Building Now</a>
             <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
@@ -87,7 +85,7 @@
   <main id="main">
 
     <!-- ======= Cliens Section ======= -->
-    <section id="cliens" class="cliens section-bg">
+    <!-- <section id="cliens" class="cliens section-bg">
       <div class="container">
 
         <div class="row" data-aos="zoom-in">
@@ -122,8 +120,9 @@
 
         </div>
 
-      </div>
-    </section><!-- End Cliens Section -->
+      </div> -->
+    <!-- </section> -->
+    <!-- End Cliens Section -->
 
         <!-- ======= Services Section ======= -->
         <section id="services" class="services section-bg">
@@ -131,7 +130,7 @@
     
             <div class="section-title">
               <h2>What Lanepact offers</h2>
-              <p>We provide blockchain development and Web 3.0 design, and product management services for Startups and Enterprises</p>
+              <p>We provide infrastructure solutions for startups and businesses</p>
             </div>
     
             <div class="row">
@@ -400,22 +399,22 @@
               </div>
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                <div class="portfolio-img"><img src="assets/img/portfolio/port1.png" class="img-fluid" alt=""></div>
+                <div class="portfolio-img"><img src="assets/img/portfolio/cloudpad22.png" class="img-fluid" alt=""></div>
                 <div class="portfolio-info">
-                  <h4>Agulite</h4>
-                  <p>Web 3.0 and Blockchain Learning Space</p>
-                  <a href="assets/img/portfolio/port1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a target="_blank" href="https://www.agulite.com" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                  <h4>Cloudpad</h4>
+                  <p>An arbitrum based project launchpad</p>
+                  <a href="assets/img/portfolio/cloudpad22.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a target="_blank" href="https://cloudpad-web-client.vercel.app" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                <div class="portfolio-img"><img src="assets/img/portfolio/port2.png" class="img-fluid" alt=""></div>
+                <div class="portfolio-img"><img src="assets/img/portfolio/cloudaxMarketplace1.png" class="img-fluid" alt=""></div>
                 <div class="portfolio-info">
-                  <h4>Howla</h4>
-                  <p>An Emergency Mobile applications</p>
-                  <a href="assets/img/portfolio/port2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a target="_blank" href="https://www.justhowla.com" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                  <h4>NFT Marketplace</h4>
+                  <p>Cloudax NFT Marketplace</p>
+                  <a href="assets/img/portfolio/cloudaxMarketplace1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a target="_blank" href="https://marketplace-cloudax.vercel.app/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
     
@@ -547,7 +546,7 @@
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
-        &copy; Copyright <strong><span>Lanepact</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Lanepact</span></strong>. <span id="year"></span> All Rights Reserved
     </div>
   </footer><!-- End Footer -->
 
@@ -562,6 +561,13 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script>
+    // Get the current year
+    const currentYear = new Date().getFullYear();
+  
+    // Set the current year in the footer
+    document.getElementById('year').textContent = currentYear;
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
